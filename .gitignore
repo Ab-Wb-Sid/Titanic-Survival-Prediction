@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+sample-data-encoded.csv
+sample-data-encoded-output.csv
+training-data-encoded.csv
+testing-data-encoded.csv
+model-predictions.csv
+.streamlit/secrets.toml

@@ -1,0 +1,43 @@
+{
+  "feature_order": [
+    "PClass",
+    "Gender",
+    "Sibling",
+    "Embarked"
+  ],
+  "target": "Survived",
+  "categories": {
+    "PClass": [
+      "First",
+      "Second",
+      "Third"
+    ],
+    "Gender": [
+      "Male",
+      "Female"
+    ],
+    "Sibling": [
+      "Zero",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "Embarked": [
+      "Southampton",
+      "Cherbourg",
+      "Queenstown"
+    ],
+    "Survived": [
+      "Yes",
+      "No"
+    ]
+  },
+  "model_type": "sklearn.svm.SVC",
+  "model_params": {
+    "gamma": "auto",
+    "random_state": 0
+  },
+  "test_size": 0.2,
+  "shuffle": false,
+  "random_state": 0
+}
